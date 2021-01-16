@@ -2,7 +2,7 @@
 name: sync-lxk0301-scripts
 on:
   schedule:
-    - cron: '1 0,15 * * *'
+    - cron: '1 *'
   workflow_dispatch:
   watch:
     types: started
